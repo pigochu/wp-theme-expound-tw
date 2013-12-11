@@ -5,7 +5,7 @@ This is a wordpress theme base on expound (http://wordpress.org/themes/expound/)
 這是一個 wordpress 佈景，基於 expound 並且已經優化為適用於台灣(繁體)的中文使用者。
 
 ## 修正內容 ##
-- 加入台灣繁體 zh_TW 中文化語系
+- 加入台灣繁體 zh_TW 中文化語系，若您只想要語系檔，可單獨取用放到原本的 expound theme
 
 ## TODO ##
 - 修改內文 H1 H2 H3 讓中文字變粗體
