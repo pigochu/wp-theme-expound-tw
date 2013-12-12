@@ -1193,11 +1193,18 @@ a.wpm-button:hover {
 	body {
 	  background: #333;
 	  /*background: #999;*/
--ms-filter: none;
-    filter:none;
+	  -ms-filter: none;
+      filter:none;
 	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial,"新細明體", sans-serif;
 	  font-weight: 400;
 	}
+	
+	h2.site-description {
+	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial,"新細明體", sans-serif;
+	  font-weight: 400;
+	  color: #878787;
+	}
+	
 	header h1.site-title {
 		font-family:  "Droid Sans" , "微軟正黑體","新細明體";
 		font-weight: bold;
