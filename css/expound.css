@@ -1218,14 +1218,100 @@ a.wpm-button:hover {
 }
 
 /* 1280x720 phone , compatible padfone2 , galaxy s3 */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 360px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 361px) and (min-width: 320px) and (orientation:portrait) ,
+{
     div#page {
         margin: 6px auto;
 		width: 96%;
     }
+	div#primary {
+		width: 100%;
+	}
+	.site-title-group {
+		margin: 30px 20px 30px 20px;
+	}
+
+	.featured-content article ,
+	.site-content article 
+	{
+	  border-bottom: solid 1px #dddddd;
+	  padding-left: 20px;
+	  margin: 0;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	}
+	.featured-content-secondary  {
+		padding-top: 20px;
+		padding-bottom: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.single .site-content .related-content {
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.comments-area {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 20px;
+	}
+	.comments-area article {
+		margin: 0;
+		padding: 20px 0 32px 0;
+		border-top: solid 1px #dddddd;
+		border-bottom: none;
+	}
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 620px) and (orientation:landscape) {
+    div#page {
+        margin: 6px auto;
+		width: 98%;
+    }
+	div#primary {
+		width: 100%;
+	}
+	.site-title-group {
+		margin: 40px 30px 40px 30px;
+	}
+	
+	.featured-content article ,
+	.site-content article 
+	{
+	  border-bottom: solid 1px #dddddd;
+	  padding-left: 30px;
+	  margin: 0;
+	  padding-top: 30px;
+	  padding-bottom: 30px;
+	}
+	
+	.featured-content-secondary  {
+		padding-top: 20px;
+		padding-bottom: 0;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.single .site-content .related-content {
+		padding-bottom: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.comments-area {
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-top: 20px;
+	}
+	.comments-area article {
+		margin: 0;
+		padding: 20px 0 32px 0;
+		border-top: solid 1px #dddddd;
+		border-bottom: none;
+	}
+}
+
+
 /* Nexus 7 2013 1920x1200 => 960x600 , maybe compatible 1920x1080 */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 540px) and (orientation:portrait) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 601px) and (min-width: 540px) and (orientation:portrait) {
     div#page {
         margin: 20px auto;
 		width: 96%;
@@ -1234,7 +1320,7 @@ a.wpm-button:hover {
 		width: 100%;
 	}
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 540px) and (orientation:landscape) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 900px) and (orientation:landscape) {
     div#page {
         margin: 20px auto;
 		width: 96%;
