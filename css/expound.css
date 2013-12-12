@@ -1196,8 +1196,6 @@ a.wpm-button:hover {
 	{
 	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial,"新細明體", sans-serif;
 	  font-weight: 400;
-	  -ms-filter: none;
-      filter:none;
 	}
 	
 	.single .site-content h1.entry-title {
@@ -1215,5 +1213,14 @@ a.wpm-button:hover {
 		font-weight: bold;
 	}
 }
+
+/* test on android padfone2 1280x720 , maybe compatible galay s3*/
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+    div#page {
+        margin: 6px auto;
+		width: 96%;
+    }
+}
+
 
 
