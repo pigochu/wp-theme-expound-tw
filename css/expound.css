@@ -1214,13 +1214,19 @@ a.wpm-button:hover {
 	}
 }
 
-/* test on android padfone2 1280x720 , maybe compatible galay s3*/
-@media only screen and (-webkit-device-pixel-ratio: 2) {
+/* 1280x720 phone , compatible padfone2 , galaxy s3 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 360px) {
     div#page {
         margin: 6px auto;
 		width: 96%;
     }
 }
-
+/* Nexus 7 2013 1920x1200 => 960x600 , maybe compatible 1920x1080 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 540px) {
+    div#page {
+        margin: 20px auto;
+		width: 96%;
+    }
+}
 
 
