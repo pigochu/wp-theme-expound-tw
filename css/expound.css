@@ -1182,12 +1182,23 @@ a.wpm-button:hover {
   src: local('Donegal One'), local('DonegalOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/donegalone/v2/LIom94sU9XlcGbVvjBz0oIbN6UDyHWBl620a-IRfuBk.woff) format('woff');
 }
 
+
+
 @media only screen {
+
 	header h1.site-title {
-		font-family:  "Donegal One" , "微軟正黑體","新細明體";;
+		font-family:  "Donegal One" , "微軟正黑體","新細明體";
+		font-weight: bold;
 	}
 
-	article header.entry-header h1.entry-title,
+	.single .site-content h1.entry-title {
+		font-size: 38px;
+		line-height: 40px;
+		font-weight: bold;
+	}
+	
+	.single .site-content h1.entry-title,
+	.site-content h1.entry-title,
 	div#content article div.entry-content h1,
 	div#content article div.entry-content h2,
 	div#content article div.entry-content h3 {
