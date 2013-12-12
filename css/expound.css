@@ -1190,33 +1190,23 @@ a.wpm-button:hover {
 }
 
 @media only screen {
-	body {
-	  background: #333;
-	  /*background: #999;*/
+
+	body,
+	h2.site-description 
+	{
+	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial,"新細明體", sans-serif;
+	  font-weight: 400;
 	  -ms-filter: none;
       filter:none;
-	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial,"新細明體", sans-serif;
-	  font-weight: 400;
 	}
 	
-	h2.site-description {
-	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial,"新細明體", sans-serif;
-	  font-weight: 400;
-	  color: #878787;
-	}
-	
-	header h1.site-title {
-		font-family:  "Droid Sans" , "微軟正黑體","新細明體";
-		font-weight: bold;
-	}
-
 	.single .site-content h1.entry-title {
 		font-size: 38px;
-		line-height: 40px;
-		font-weight: bold;
-		font-family:  "Droid Sans" , "微軟正黑體","新細明體";
+		line-height: 50px;
 	}
 	
+	.single .site-content h1.entry-title,
+	header h1.site-title,
 	div h1.entry-title a,
 	div#content article div.entry-content h1,
 	div#content article div.entry-content h2,
