@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Expound\n"
 "POT-Creation-Date: 2013-06-17 17:41+0400\n"
-"PO-Revision-Date: 2013-12-12 00:18+0800\n"
+"PO-Revision-Date: 2013-12-13 01:11+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -60,7 +60,7 @@ msgstr "迴響已關閉"
 
 #: ../content-page.php:18 ../content-single.php:20 ../image.php:95
 msgid "Pages:"
-msgstr ""
+msgstr "頁次:"
 
 #: ../featured-content.php:14 ../featured-content.php:43
 #: ../related-content.php:16
@@ -154,7 +154,7 @@ msgstr ""
 #: ../index.php:26
 #, php-format
 msgid "Tag Archives: %s"
-msgstr ""
+msgstr "標籤彙整: %s"
 
 #: ../index.php:33
 #, php-format
