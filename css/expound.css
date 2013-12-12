@@ -1193,8 +1193,9 @@ a.wpm-button:hover {
 	body {
 	  background: #333;
 	  /*background: #999;*/
-
-	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+-ms-filter: none;
+    filter:none;
+	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial,"新細明體", sans-serif;
 	  font-weight: 400;
 	}
 	header h1.site-title {
