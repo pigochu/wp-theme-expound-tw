@@ -1197,6 +1197,9 @@ a.wpm-button:hover {
 	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial,"新細明體", sans-serif;
 	  font-weight: 400;
 	}
+	h2.site-description  {
+      color: #878787;
+	}
 	
 	.single .site-content h1.entry-title {
 		font-size: 38px;
