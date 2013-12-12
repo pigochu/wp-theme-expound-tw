@@ -1225,7 +1225,16 @@ a.wpm-button:hover {
     }
 }
 /* Nexus 7 2013 1920x1200 => 960x600 , maybe compatible 1920x1080 */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 540px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 540px) and (orientation:portrait) {
+    div#page {
+        margin: 20px auto;
+		width: 96%;
+    }
+	div#primary {
+		width: 100%;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 540px) and (orientation:landscape) {
     div#page {
         margin: 20px auto;
 		width: 96%;
