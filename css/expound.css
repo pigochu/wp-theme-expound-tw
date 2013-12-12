@@ -1195,10 +1195,10 @@ a.wpm-button:hover {
 		font-size: 38px;
 		line-height: 40px;
 		font-weight: bold;
+		font-family:  "Donegal One" , "微軟正黑體","新細明體";
 	}
 	
-	.single .site-content h1.entry-title,
-	.site-content h1.entry-title,
+	div h1.entry-title a,
 	div#content article div.entry-content h1,
 	div#content article div.entry-content h2,
 	div#content article div.entry-content h3 {
