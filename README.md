@@ -13,6 +13,11 @@ This is a wordpress theme base on expound (http://wordpress.org/themes/expound/)
  - 4~5吋左右 1280x720 手機
  - 7吋1920x1080平板
 
+
+## 檔案異動 ##
+- languages/zh_TW.mo(po) 是新增的台灣繁體語系
+- css/expound.css 是修正過後的 css
+
 ## 版權 ##
 這是基於 expound v1.8.0 製作的，原版是以 GPL V2 發佈，所以就是 GPL V2 無誤
 

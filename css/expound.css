@@ -1167,7 +1167,7 @@ a.wpm-button:hover {
 
 
 /*
-  Optimize For Chinese World
+  Optimize For Chinese Words
   @author pigo chu
 */
 
@@ -1189,12 +1189,19 @@ a.wpm-button:hover {
   src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v4/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
 
+@font-face {
+	font-family: CustomHeaderFont;
+	font-style: normal;
+	font-weight: normal;
+	src: local("Microsoft JhengHei UI Bold"),local("Microsoft JhengHei Bold");
+}
+
 @media only screen {
 
 	body,
 	h2.site-description 
 	{
-	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial,"新細明體", sans-serif;
+	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial, "新細明體", sans-serif;
 	  font-weight: 400;
 	}
 	h2.site-description  {
@@ -1212,13 +1219,15 @@ a.wpm-button:hover {
 	div#content article div.entry-content h1,
 	div#content article div.entry-content h2,
 	div#content article div.entry-content h3 {
-		font-family:  "Droid Sans" , "微軟正黑體","新細明體";
-		font-weight: bold;
+		font-family:  "Droid Sans" ,Helvetica, Arial , "CustomHeaderFont" , "新細明體";
+		font-weight: normal;
 	}
 }
 
 /* 1280x720 phone , compatible padfone2 , galaxy s3 */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 361px) and (min-width: 320px) and (orientation:portrait) ,
+@media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 361px) and (min-width: 320px) and (orientation:portrait) ,
+       all and    (-moz-min-device-pixel-ratio: 2) and (max-width: 361px) and (min-width: 320px) and (orientation:portrait)
+       all and         (min-device-pixel-ratio: 2) and (max-width: 361px) and (min-width: 320px) and (orientation:portrait)
 {
     div#page {
         margin: 6px auto;
@@ -1263,7 +1272,11 @@ a.wpm-button:hover {
 		border-bottom: none;
 	}
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 620px) and (orientation:landscape) {
+@media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 620px) and (orientation:landscape),
+       all and    (-moz-min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 620px) and (orientation:landscape),
+       all and         (min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 620px) and (orientation:landscape)
+
+{
     div#page {
         margin: 6px auto;
 		width: 98%;
@@ -1311,7 +1324,9 @@ a.wpm-button:hover {
 
 
 /* Nexus 7 2013 1920x1200 => 960x600 , maybe compatible 1920x1080 */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 601px) and (min-width: 540px) and (orientation:portrait) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 601px) and (min-width: 540px) and (orientation:portrait),
+       only screen and         (min-device-pixel-ratio: 2) and (max-width: 601px) and (min-width: 540px) and (orientation:portrait)
+{
     div#page {
         margin: 20px auto;
 		width: 96%;
@@ -1320,7 +1335,9 @@ a.wpm-button:hover {
 		width: 100%;
 	}
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 900px) and (orientation:landscape) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 900px) and (orientation:landscape),
+       only screen and         (min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 900px) and (orientation:landscape)
+{
     div#page {
         margin: 20px auto;
 		width: 96%;
