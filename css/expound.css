@@ -1166,8 +1166,9 @@ a.wpm-button:hover {
   font-weight: normal;
   src: local("Microsoft JhengHei UI Bold"), local("Microsoft JhengHei Bold");
 }
-body {
-  font: 13px/20px "Helvetica Neue", Helvetica, Arial, "PMingLiu", sans-serif;
+body,
+h2.site-description {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PMingLiu", sans-serif;
 }
 h1.site-title,
 h1.page-title,
@@ -1181,9 +1182,6 @@ div.site-content .entry-content h3,
 div.site-content .comment-content h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, CustomHeaderFont, sans-serif;
   font-weight: normal;
-}
-h2.site-description {
-  font: 13px/20px "Helvetica Neue", Helvetica, Arial, "PMingLiu", sans-serif;
 }
 @media (max-width: 600px) {
   div#page {

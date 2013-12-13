@@ -1182,8 +1182,11 @@ a.wpm-button {
 }
 
 // 重新定義 body 字體，中文字體為新細明體優先
-body {
-	font: 13px/20px "Helvetica Neue", Helvetica, Arial, "PMingLiu" ,sans-serif;
+// 設定網站副標使用新細明體
+body,
+h2.site-description 
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, "PMingLiu" ,sans-serif;
 }
 
 // 設定網站名稱使用自訂義粗體中文
@@ -1206,10 +1209,7 @@ div.site-content .comment-content h3
 
 
 
-// 設定網站副標使用新細明體
-h2.site-description {
-	font: 13px/20px "Helvetica Neue", Helvetica, Arial, "PMingLiu" ,sans-serif;
-}
+
 
 // 取代原本的 600px，這有可能是直式的手機或平板，所以寬度應當拉大才對
 @media (max-width: 600px) {
