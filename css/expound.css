@@ -1,7 +1,6 @@
 body {
   background: #333;
   /*background: #999;*/
-
   font: 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
@@ -227,7 +226,6 @@ a:hover {
   float: right;
   margin-right: 36px;
   /* -4px bc of padding */
-
 }
 .navigation-main ul.social li:hover {
   background: none;
@@ -590,7 +588,6 @@ h3 {
 .featured-content-secondary {
   margin-top: -1px;
   /* cover the bottom border of the main featured content area */
-
   background: #ffffff url('../images/absurdidad.png') 0 0 repeat;
 }
 .featured-content-secondary article {
@@ -831,7 +828,6 @@ a.wpm-button:hover {
   margin: 0;
   padding: 20px 0 32px 0;
   /* added 12 due to avatar top: 12 */
-
   border-top: solid 1px #dddddd;
   border-bottom: none;
 }
@@ -1164,187 +1160,58 @@ a.wpm-button:hover {
     width: 85%;
   }
 }
-
-
-/*
-  Optimize For Chinese Words
-  @author pigo chu
-*/
-
-/*
-  Web Font From Google
-*/
-/*
 @font-face {
-  font-family: 'Donegal One';
+  font-family: CustomHeaderFont;
   font-style: normal;
-  font-weight: 700;
-  src: local('Donegal One'), local('DonegalOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/donegalone/v2/LIom94sU9XlcGbVvjBz0oIbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+  font-weight: normal;
+  src: local("Microsoft JhengHei UI Bold"), local("Microsoft JhengHei Bold");
 }
-*/
-@font-face {
-  font-family: 'Droid Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v4/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+body {
+  font: 13px/20px "Helvetica Neue", Helvetica, Arial, "PMingLiu", sans-serif;
 }
-
-@font-face {
-	font-family: CustomHeaderFont;
-	font-style: normal;
-	font-weight: normal;
-	src: local("Microsoft JhengHei UI Bold"),local("Microsoft JhengHei Bold");
+h1.site-title,
+h1.page-title,
+header.entry-header h1.entry-title,
+div.site-content h1.entry-title,
+div.site-content .entry-content h1,
+div.site-content .comment-content h1,
+div.site-content .entry-content h2,
+div.site-content .comment-content h2,
+div.site-content .entry-content h3,
+div.site-content .comment-content h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, CustomHeaderFont, sans-serif;
+  font-weight: normal;
 }
-
-@media only screen {
-
-	body,
-	h2.site-description 
-	{
-	  font: 13px/20px "Droid Sans","Helvetica Neue", Helvetica, Arial, "新細明體", sans-serif;
-	  font-weight: 400;
-	}
-	h2.site-description  {
-      color: #878787;
-	}
-	
-	.single .site-content h1.entry-title {
-		font-size: 38px;
-		line-height: 50px;
-	}
-	
-	.single .site-content h1.entry-title,
-	header h1.site-title,
-	div h1.entry-title a,
-	div#content article div.entry-content h1,
-	div#content article div.entry-content h2,
-	div#content article div.entry-content h3 {
-		font-family:  "Droid Sans" ,Helvetica, Arial , "CustomHeaderFont" , "新細明體";
-		font-weight: normal;
-	}
+h2.site-description {
+  font: 13px/20px "Helvetica Neue", Helvetica, Arial, "PMingLiu", sans-serif;
 }
-
-/* 1280x720 phone , compatible padfone2 , galaxy s3 */
-@media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 361px) and (min-width: 320px) and (orientation:portrait) ,
-       all and    (-moz-min-device-pixel-ratio: 2) and (max-width: 361px) and (min-width: 320px) and (orientation:portrait)
-       all and         (min-device-pixel-ratio: 2) and (max-width: 361px) and (min-width: 320px) and (orientation:portrait)
-{
-    div#page {
-        margin: 6px auto;
-		width: 96%;
-    }
-	div#primary {
-		width: 100%;
-	}
-	.site-title-group {
-		margin: 30px 20px 30px 20px;
-	}
-
-	.featured-content article ,
-	.site-content article 
-	{
-	  border-bottom: solid 1px #dddddd;
-	  padding-left: 20px;
-	  margin: 0;
-	  padding-top: 20px;
-	  padding-bottom: 20px;
-	}
-	.featured-content-secondary  {
-		padding-top: 20px;
-		padding-bottom: 0;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.single .site-content .related-content {
-		padding-bottom: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.comments-area {
-		padding-left: 20px;
-		padding-right: 20px;
-		margin-top: 20px;
-	}
-	.comments-area article {
-		margin: 0;
-		padding: 20px 0 32px 0;
-		border-top: solid 1px #dddddd;
-		border-bottom: none;
-	}
+@media (max-width: 600px) {
+  div#page {
+    width: 96%;
+    margin: 10px auto;
+  }
+  div.site-title-group {
+    margin: 40px 20px 40px 20px;
+  }
+  header.page-header,
+  div.site-content article,
+  div.featured-content article,
+  div.featured-content-secondary,
+  body.single .site-content .related-content,
+  div.comments-area {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  div.comments-area article {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .navigation-paging,
+  .navigation-post {
+    padding-left: 20px;
+  }
+  div.widget-area .widget {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
-@media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 620px) and (orientation:landscape),
-       all and    (-moz-min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 620px) and (orientation:landscape),
-       all and         (min-device-pixel-ratio: 2) and (max-width: 641px) and (min-width: 620px) and (orientation:landscape)
-
-{
-    div#page {
-        margin: 6px auto;
-		width: 98%;
-    }
-	div#primary {
-		width: 100%;
-	}
-	.site-title-group {
-		margin: 40px 30px 40px 30px;
-	}
-	
-	.featured-content article ,
-	.site-content article 
-	{
-	  border-bottom: solid 1px #dddddd;
-	  padding-left: 30px;
-	  margin: 0;
-	  padding-top: 30px;
-	  padding-bottom: 30px;
-	}
-	
-	.featured-content-secondary  {
-		padding-top: 20px;
-		padding-bottom: 0;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.single .site-content .related-content {
-		padding-bottom: 20px;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.comments-area {
-		padding-left: 30px;
-		padding-right: 30px;
-		margin-top: 20px;
-	}
-	.comments-area article {
-		margin: 0;
-		padding: 20px 0 32px 0;
-		border-top: solid 1px #dddddd;
-		border-bottom: none;
-	}
-}
-
-
-/* Nexus 7 2013 1920x1200 => 960x600 , maybe compatible 1920x1080 */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 601px) and (min-width: 540px) and (orientation:portrait),
-       only screen and         (min-device-pixel-ratio: 2) and (max-width: 601px) and (min-width: 540px) and (orientation:portrait)
-{
-    div#page {
-        margin: 20px auto;
-		width: 96%;
-    }
-	div#primary {
-		width: 100%;
-	}
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 900px) and (orientation:landscape),
-       only screen and         (min-device-pixel-ratio: 2) and (max-width: 961px) and (min-width: 900px) and (orientation:landscape)
-{
-    div#page {
-        margin: 20px auto;
-		width: 96%;
-    }
-	div#primary {
-		width: 640px;
-	}
-}
-
-

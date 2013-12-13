@@ -16,6 +16,7 @@ This is a wordpress theme base on expound (http://wordpress.org/themes/expound/)
 
 ## 檔案異動 ##
 - languages/zh_TW.mo(po) 是新增的台灣繁體語系
+- css/expound.less 修改 less 轉成 css
 - css/expound.css 是修正過後的 css
 
 ## 版權 ##
