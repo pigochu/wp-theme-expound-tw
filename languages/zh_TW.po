@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Expound\n"
-"POT-Creation-Date: 2013-06-17 17:41+0400\n"
-"PO-Revision-Date: 2013-12-15 13:22+0800\n"
+"POT-Creation-Date: 2013-12-12 20:23+0400\n"
+"PO-Revision-Date: 2013-12-15 13:55+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +14,6 @@ msgstr ""
 "_nx:1,2,4c\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: zh_TW\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../404.php:15
@@ -58,43 +58,43 @@ msgstr "較新迴響 &rarr;"
 msgid "Comments are closed."
 msgstr "迴響已關閉"
 
-#: ../content-page.php:18 ../content-single.php:20 ../image.php:95
+#: ../content-page.php:18 ../content-single.php:20 ../image.php:94
 msgid "Pages:"
 msgstr "頁次:"
 
-#: ../featured-content.php:14 ../featured-content.php:43
-#: ../related-content.php:16
+#: ../featured-content.php:19 ../featured-content.php:50
+#: ../related-content.php:22
 #, php-format
 msgid "Permalink to %s"
 msgstr "馬上觀看 : %s"
 
-#: ../featured-content.php:19
+#: ../featured-content.php:24
 msgid "Continue reading &rarr;"
 msgstr "繼續閱讀 &rarr;"
 
-#: ../functions.php:71
+#: ../functions.php:81
 msgid "Primary Menu"
 msgstr "主選單"
 
-#: ../functions.php:92
+#: ../functions.php:112
 msgid "Sidebar"
 msgstr "側邊欄"
 
-#: ../functions.php:207
+#: ../functions.php:264
 #, php-format
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: ../functions.php:209
+#: ../functions.php:266
 #, php-format
 msgid "Theme: %1$s by %2$s"
 msgstr "Theme: %1$s by %2$s"
 
-#: ../header.php:34
+#: ../header.php:36
 msgid "Menu"
 msgstr "選單"
 
-#: ../header.php:35
+#: ../header.php:37
 msgid "Skip to content"
 msgstr ""
 
@@ -111,20 +111,15 @@ msgstr ""
 "size image\">%4$s &times; %5$s</a> 在 <a href=\"%6$s\" title=\"返回到 %7$s\" "
 "rel=\"gallery\">%8$s</a>"
 
-#: ../image.php:34 ../image.php:112 ../inc/template-tags.php:71
-#: ../inc/template-tags.php:92
-msgid "Edit"
-msgstr "編輯"
-
-#: ../image.php:38
+#: ../image.php:37
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> 上一張"
 
-#: ../image.php:39
+#: ../image.php:38
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "下一張 <span class=\"meta-nav\">&rarr;</span>"
 
-#: ../image.php:104
+#: ../image.php:103
 #, php-format
 msgid ""
 "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
@@ -135,7 +130,7 @@ msgstr ""
 "</a>或留下引用 : <a class=\"trackback-link\" href=\"%s\" title=\"這篇文章的引"
 "用網址\" rel=\"trackback\">Trackback URL</a>."
 
-#: ../image.php:106
+#: ../image.php:105
 #, php-format
 msgid ""
 "Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
@@ -145,7 +140,7 @@ msgstr ""
 "迴響功能已關閉，但是您可以留下引用 : <a class=\"trackback-link\" href=\"%s\" "
 "title=\"引用本篇文章的連結\" rel=\"trackback\">引用 URL</a>."
 
-#: ../image.php:108
+#: ../image.php:107
 msgid ""
 "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
 "\" title=\"Post a comment\">post a comment</a>."
@@ -153,7 +148,7 @@ msgstr ""
 "引用功能已經關閉，但是您可以 <a class=\"comment-link\" href=\"#respond\" "
 "title=\"發表一則迴響\">發表迴響</a>。"
 
-#: ../image.php:110
+#: ../image.php:109
 msgid "Both comments and trackbacks are currently closed."
 msgstr "目前迴響及引用功能已關閉."
 
@@ -187,7 +182,12 @@ msgstr "每月彙整: %s"
 msgid "Yearly Archives: %s"
 msgstr "每年彙整: %s"
 
-#: ../index.php:47 ../sidebar.php:17
+#: ../index.php:47
+#, php-format
+msgid "Search Results for: %s"
+msgstr "搜尋結果 : %s"
+
+#: ../index.php:49
 msgid "Archives"
 msgstr "彙整"
 
@@ -213,112 +213,154 @@ msgid ""
 "searching can help."
 msgstr "看來我們不能找到你要找的內容。也許搜索可以提供幫助。"
 
-#: ../related-content.php:4
+#: ../related-content.php:10
 msgid "Related posts"
 msgstr "相關文章"
 
-#: ../search.php:16
-#, php-format
-msgid "Search Results for: %s"
-msgstr "搜尋結果 : %s"
-
-#: ../sidebar.php:24
-msgid "Meta"
-msgstr ""
-
-#: ../inc/extras.php:66
+#: ../inc/extras.php:70
 #, php-format
 msgid "Page %s"
 msgstr "頁 %s"
+
+#: ../inc/rateme.php:21
+#, php-format
+msgid ""
+"Thank you for using Expound! If you like the theme, please consider giving "
+"it a <a target=\"_blank\" href=\"%s\">high rating on WordPress.org</a>. "
+"Thank you! <a href=\"%s\">(hide this message)</a>"
+msgstr ""
+"感謝您使用 Expound! 若您喜愛本佈景主題, 可不可以考慮 <a target=\"_blank\" "
+"href=\"%s\">評高分在 WordPress.org</a>. Thank you! <a href=\"%s\">(隱藏本訊"
+"息)</a>"
 
 #: ../inc/template-tags.php:34
 msgid "Post navigation"
 msgstr "文章導覽"
 
-#: ../inc/template-tags.php:38
+#: ../inc/template-tags.php:42
 msgid "&larr;"
 msgstr ""
 
-#: ../inc/template-tags.php:39
+#: ../inc/template-tags.php:43
 msgid "&rarr;"
 msgstr ""
 
-#: ../inc/template-tags.php:44
+#: ../inc/template-tags.php:48
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> 較舊文章"
 
-#: ../inc/template-tags.php:48
+#: ../inc/template-tags.php:52
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "較新文章 <span class=\"meta-nav\">&rarr;</span>"
 
-#: ../inc/template-tags.php:71
+#: ../inc/template-tags.php:75
 msgid "Pingback:"
 msgstr "通告:"
 
-#: ../inc/template-tags.php:81
+#: ../inc/template-tags.php:75 ../inc/template-tags.php:96
+msgid "Edit"
+msgstr "編輯"
+
+#: ../inc/template-tags.php:85
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"says\">說:</span>"
 
-#: ../inc/template-tags.php:84
+#: ../inc/template-tags.php:88
 msgid "Your comment is awaiting moderation."
 msgstr "您的評論正在等待審核。"
 
-#: ../inc/template-tags.php:90
+#: ../inc/template-tags.php:94
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: ../inc/template-tags.php:119 ../inc/template-tags.php:140
-msgid "ago"
-msgstr "前"
-
-#: ../inc/template-tags.php:128
+#: ../inc/template-tags.php:132
 #, php-format
 msgid "%1$s / %2$s"
 msgstr ""
 
-#: ../inc/template-tags.php:150 ../inc/template-tags.php:156
+#: ../inc/template-tags.php:161
+#, php-format
+msgid "%s min ago"
+msgid_plural "%s mins ago"
+msgstr[0] "%s 分鐘前"
+
+#: ../inc/template-tags.php:166
+#, php-format
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] "%s 小時前"
+
+#: ../inc/template-tags.php:171
+#, php-format
+msgid "%s day ago"
+msgid_plural "%s days ago"
+msgstr[0] "%s 天前"
+
+#: ../inc/template-tags.php:176
+#, php-format
+msgid "%s week ago"
+msgid_plural "%s weeks ago"
+msgstr[0] "%s 周前"
+
+#: ../inc/template-tags.php:181
+#, php-format
+msgid "%s month ago"
+msgid_plural "%s months ago"
+msgstr[0] "%s 月前"
+
+#: ../inc/template-tags.php:186
+#, php-format
+msgid "%s year ago"
+msgid_plural "%s years ago"
+msgstr[0] "%s 年前"
+
+#: ../inc/template-tags.php:198
+msgid "ago"
+msgstr "前"
+
+#: ../inc/template-tags.php:208 ../inc/template-tags.php:214
 #, php-format
 msgid "%1$s in %2$s."
 msgstr "%1$s 在 %2$s."
 
-#: ../inc/template-tags.php:162
+#: ../inc/template-tags.php:220
 msgid "Tags: "
 msgstr "標籤:"
 
-msgid "&larr; Previous"
-msgstr "&larr; Previous"
+#~ msgid "&larr; Previous"
+#~ msgstr "&larr; Previous"
 
-msgid "Next &rarr;"
-msgstr "Next &rarr;"
+#~ msgid "Next &rarr;"
+#~ msgstr "Next &rarr;"
 
-msgid "Search"
-msgstr "搜尋"
+#~ msgid "Search"
+#~ msgstr "搜尋"
 
-msgid "Search &hellip;"
-msgstr "搜尋 &hellip;"
+#~ msgid "Search &hellip;"
+#~ msgstr "搜尋 &hellip;"
 
-msgid "(Edit)"
-msgstr "(編輯)"
+#~ msgid "(Edit)"
+#~ msgstr "(編輯)"
 
-msgid ", "
-msgstr ", "
+#~ msgid ", "
+#~ msgstr ", "
 
-msgid "Posted in %1$s"
-msgstr "已張貼於 %1$s"
+#~ msgid "Posted in %1$s"
+#~ msgstr "已張貼於 %1$s"
 
-msgid "Tagged %1$s"
-msgstr "Tagged %1$s"
+#~ msgid "Tagged %1$s"
+#~ msgstr "Tagged %1$s"
 
-msgid "Leave a comment"
-msgstr "發表評論"
+#~ msgid "Leave a comment"
+#~ msgstr "發表評論"
 
-msgid "1 Comment"
-msgstr "1 迴響"
+#~ msgid "1 Comment"
+#~ msgstr "1 迴響"
 
-msgid "% Comments"
-msgstr "迴響 : %"
+#~ msgid "% Comments"
+#~ msgstr "迴響 : %"
 
-msgid "Category Archives: %s"
-msgstr "分類彙整: %s"
+#~ msgid "Category Archives: %s"
+#~ msgstr "分類彙整: %s"
