@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Expound\n"
 "POT-Creation-Date: 2013-06-17 17:41+0400\n"
-"PO-Revision-Date: 2013-12-15 12:34+0800\n"
+"PO-Revision-Date: 2013-12-15 13:22+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr " 這個位置找不到任何東西。要不要嘗試以下的鏈接或�
 
 #: ../404.php:27
 msgid "Most Used Categories"
-msgstr ""
+msgstr "最常用的分類"
 
 #: ../404.php:44
 #, php-format
@@ -44,7 +44,7 @@ msgstr[0] "%1$s 則評論在 %2$s."
 
 #: ../comments.php:36 ../comments.php:56
 msgid "Comment navigation"
-msgstr ""
+msgstr "迴響導覽"
 
 #: ../comments.php:37 ../comments.php:57
 msgid "&larr; Older Comments"
@@ -66,7 +66,7 @@ msgstr "頁次:"
 #: ../related-content.php:16
 #, php-format
 msgid "Permalink to %s"
-msgstr ""
+msgstr "馬上觀看 : %s"
 
 #: ../featured-content.php:19
 msgid "Continue reading &rarr;"
@@ -106,6 +106,10 @@ msgid ""
 "image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
 "rel=\"gallery\">%8$s</a>"
 msgstr ""
+"發佈於日期 <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> 原尺寸是 <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> 在 <a href=\"%6$s\" title=\"返回到 %7$s\" "
+"rel=\"gallery\">%8$s</a>"
 
 #: ../image.php:34 ../image.php:112 ../inc/template-tags.php:71
 #: ../inc/template-tags.php:92
@@ -114,11 +118,11 @@ msgstr "編輯"
 
 #: ../image.php:38
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> 上一張"
 
 #: ../image.php:39
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "下一張 <span class=\"meta-nav\">&rarr;</span>"
 
 #: ../image.php:104
 #, php-format
@@ -127,6 +131,9 @@ msgid ""
 "comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
 "title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">發表迴響"
+"</a>或留下引用 : <a class=\"trackback-link\" href=\"%s\" title=\"這篇文章的引"
+"用網址\" rel=\"trackback\">Trackback URL</a>."
 
 #: ../image.php:106
 #, php-format
@@ -135,12 +142,16 @@ msgid ""
 "\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
 "\">Trackback URL</a>."
 msgstr ""
+"迴響功能已關閉，但是您可以留下引用 : <a class=\"trackback-link\" href=\"%s\" "
+"title=\"引用本篇文章的連結\" rel=\"trackback\">引用 URL</a>."
 
 #: ../image.php:108
 msgid ""
 "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
 "\" title=\"Post a comment\">post a comment</a>."
 msgstr ""
+"引用功能已經關閉，但是您可以 <a class=\"comment-link\" href=\"#respond\" "
+"title=\"發表一則迴響\">發表迴響</a>。"
 
 #: ../image.php:110
 msgid "Both comments and trackbacks are currently closed."
@@ -188,7 +199,7 @@ msgstr "找不到任何東西"
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "準備好要發佈您的第一篇文章了嗎 ? <a href=\"%1$s\">就由這兒開始吧</a>。"
 
 #: ../no-results.php:23
 msgid ""
@@ -218,11 +229,11 @@ msgstr ""
 #: ../inc/extras.php:66
 #, php-format
 msgid "Page %s"
-msgstr ""
+msgstr "頁 %s"
 
 #: ../inc/template-tags.php:34
 msgid "Post navigation"
-msgstr ""
+msgstr "文章導覽"
 
 #: ../inc/template-tags.php:38
 msgid "&larr;"
