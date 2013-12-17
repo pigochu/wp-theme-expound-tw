@@ -13,13 +13,13 @@
 // 重新定義 body 字體，中文字體為新細明體優先
 // 設定網站副標使用新細明體
 body {
-	font: 13px/20px "Droid Sans",Georgia,"Helvetica Neue", Helvetica, Arial, PMingLiu,sans-serif;
-	font-weight: 300;
-//font-family: "Droid Sans", "Helvetica Neue", Helvetica,Georgia, Arial, "PMingLiu" ,sans-serif;
+	font: 13px/20px "Helvetica Neue", Helvetica, Arial, PMingLiu,sans-serif;
+	font-weight: normal;
+	// 原始 font-weight 為 300，在 Android FireFox 下，英文字體會變超細不好看，故改為 normal
 }
 h2.site-description {
-	font: 13px/20px "Droid Sans",Georgia,"Helvetica Neue", Helvetica, Arial, PMingLiu,sans-serif;
-	font-weight: 300;
+	font: 13px/20px "Helvetica Neue", Helvetica, Arial, PMingLiu,sans-serif;
+	font-weight: normal;
 	color: lighten(@text,30%);
 }
 
@@ -37,7 +37,7 @@ div.site-content .comment-content h2,
 div.site-content .entry-content h3,
 div.site-content .comment-content h3
 {
-	font-family: "Droid Sans",Georgia,"Helvetica Neue", Helvetica, Arial, CustomHeaderFont ,PMingLiu,sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, CustomHeaderFont ,PMingLiu,sans-serif;
 	font-weight: normal;
 }
 
