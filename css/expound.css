@@ -1202,6 +1202,24 @@ div.site-content .comment-content h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, CustomHeaderFont, PMingLiu, sans-serif;
   font-weight: normal;
 }
+body#tinymce h1,
+body#tinymce h2,
+body#tinymce h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, CustomHeaderFont, PMingLiu, sans-serif;
+}
+body#tinymce h1 {
+  font-size: 34px;
+  line-height: 44px;
+}
+body#tinymce h2 {
+  font-size: 20px;
+  line-height: 28px;
+}
+body#tinymce h3 {
+  font-size: 16px;
+  line-height: 18px;
+  color: #606060;
+}
 @media (max-width: 600px) {
   div#page {
     width: 96%;
