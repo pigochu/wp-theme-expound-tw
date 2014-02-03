@@ -4,7 +4,7 @@ wp-theme-expound-tw
 This is a wordpress theme base on expound (http://wordpress.org/themes/expound/) , and optimized for Taiwan user.
 
 這是一個 wordpress 佈景，基於 expound 並且已經優化為適用於台灣(繁體)的中文使用者。
-本版本目前基於 expound v1.9.0 修改的，所以請確定您現在使用的版本以免發生不相容
+本版本目前基於 expound v2.0.1 修改的，所以請確定您現在使用的版本以免發生不相容
 
 ## 修正內容 ##
 - 加入台灣繁體 zh_TW 中文化語系，若您只想要語系檔，可單獨取用放到原本的 expound theme，請見 languages/zh_TW.mo 及 zh_TW.po
@@ -21,7 +21,7 @@ This is a wordpress theme base on expound (http://wordpress.org/themes/expound/)
 - css/expound.css 是修正過後的 css
 
 ## 版權 ##
-這是基於 expound v1.9.0 製作的，原版是以 GPL V2 發佈，所以就是 GPL V2 無誤
+這是基於 expound v2.0.1 製作的，原版是以 GPL V2 發佈，所以就是 GPL V2 無誤
 
 ## 作者 ##
 原始作者為 kovshenin ，http://profiles.wordpress.org/kovshenin/
